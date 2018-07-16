@@ -3,6 +3,19 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>:: Picxa :: A Photographer Portfolio Template</title>
+    <!--footer over-->
+<script src="js/jquery.min.js"></script>
+<script>
+    $(function(){
+        /*公共部分
+         * 导航栏
+         * footer CopyRight
+         */
+        $(".headerpage").load("header.html");
+        $(".footerpage").load("footer.html");
+    });
+</script>
 </head>
 <body>
 <!-- 顶部导航 -->
@@ -15,17 +28,6 @@
 
 <!--footer-->  
 <div class="footerpage"></div>
-<!--footer over-->
-<script src="js/jquery.min.js"></script>
-<script>
-    $(function(){
-        /*公共部分
-         * 导航栏
-         * footer CopyRight
-         */
-        $(".headerpage").load("header.html");
-        $(".footerpage").load("footer.html");
-    });
-</script>
+
 </body>
 </html>

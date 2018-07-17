@@ -160,7 +160,7 @@ z-index:2;transition: width 0.3s; z-index:1}
 
 .footer a:hover{ color:#FFF}
 
-.footer img{ margin:0 auto}
+.footer img{ margin:0 auto;width: 130px;height: auto;}
 
 .footer h3{ text-align:center; color:#FFF;font-family: 'Oranienbaum', serif; text-transform:uppercase; letter-spacing:2px; font-size:21px; position:relative}
 

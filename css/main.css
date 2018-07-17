@@ -236,13 +236,15 @@ z-index:2;transition: width 0.3s; z-index:1}
 
 ========================================================================== */
 
-.map-wrapper{ width:100%;height:453px; background-color:#e6e4e4}
+.map-wrapper{ width:100%;height:453px;}
 
 .map-wrapper #surabaya {width: 100%;height: 100%;}
 
 .contact-wrapper{ margin-top:80px; margin-bottom:90px;}
 
 .contact-wrapper .phone{ font-size:16px; line-height:17px; font-weight:600; padding-bottom:0; margin-bottom:0}
+
+.contact-wrapper .contact{ font-size:15px; line-height:17px; font-weight:400; padding-bottom:2px; margin-bottom:2px;}
 
 .contact-wrapper  p a:hover{ text-decoration:underline}
 

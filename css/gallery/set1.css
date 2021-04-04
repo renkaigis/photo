@@ -136,7 +136,7 @@
 
 	word-spacing: -0.15em;
 
-	font-weight: normal;
+	font-weight: 900;
 
 	color: #fff;
 
@@ -145,11 +145,11 @@
 }
 
 
-
 .grid figure h2 span {
-
-	font-weight: 800;
-
+	font-weight: 500;
+    font-size:60%;
+    color:lightgray;
+	font-family: Cursive , Monospace;
 }
 
 
@@ -170,7 +170,8 @@
 
 	letter-spacing: 1px;
 
-	font-size: 68.5%;
+	/* font-size: 68.5%; */
+	font-size: 80%;
 
 	color: #fff; text-transform:capitalize
 

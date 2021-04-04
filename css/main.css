@@ -59,6 +59,8 @@ a:focus, img:focus, button:focus, .btn:focus {outline:none;text-decoration: none
 
 .header hgroup h1 a{ display:block; float:left; max-width:140px}
 
+.header hgroup h1 a img{ max-width:140px}
+
 .main-menu {background-color: transparent;position: fixed;width: 100%;height:100%;top: 0px;right: 0px;z-index:2;}
 
 .menu,.linee {cursor: pointer;}

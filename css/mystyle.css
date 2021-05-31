@@ -1,5 +1,6 @@
 .img-16-9{
-    width: 380px;
+    /* width: 380px; */
+    width: 500px;
 }
 
 .img-4-3{
@@ -11,7 +12,8 @@
 }
 
 .img-3-2{
-    width: 420px;
+    /* width: 420px; */
+    width: 500px;
 }
 
 #home {

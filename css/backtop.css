@@ -18,25 +18,30 @@
   transition: all 0.3s;
   z-index: 999;
 }
+
 .cd-top.cd-is-visible {
   /* the button becomes visible */
   visibility: visible;
   opacity: 1;
 }
+
 .cd-top.cd-fade-out {
   /* 如果用户继续向下滚动,这个按钮的透明度会变得更低 */
   opacity: .7;
 }
+
 .no-touch .cd-top:hover {
   background-color: #444;
   opacity: 1;
 }
+
 @media only screen and (min-width: 768px) {
   .cd-top {
     right: 20px;
     bottom: 20px;
   }
 }
+
 @media only screen and (min-width: 1024px) {
   .cd-top {
     height: 40px;

@@ -22,5 +22,5 @@ function getDate()
     var myEmail=document.getElementById("myEmail")    
     var myQQ=document.getElementById("myQQ")
     myEmail.innerHTML="<a href='"+"mailto:renkaigis@gmail.com'"+">renkaigis@gmail.com</a>"
-    myQQ.innerHTML="QQ：541638321"
+    myQQ.innerHTML="QQ: 541638321"
 }

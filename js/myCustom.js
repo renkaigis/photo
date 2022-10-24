@@ -21,6 +21,6 @@ function getDate()
     // 页面底部的联系方式
     var myEmail=document.getElementById("myEmail")    
     var myQQ=document.getElementById("myQQ")
-    myEmail.innerHTML="<a href='"+"mailto:renkaigis@foxmail.com'"+">renkaigis@foxmail.com</a>"
+    myEmail.innerHTML="<a href='"+"mailto:renkaigis@gmail.com'"+">renkaigis@gmail.com</a>"
     myQQ.innerHTML="QQ：541638321"
 }

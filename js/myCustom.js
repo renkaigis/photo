@@ -15,8 +15,8 @@ function getDate()
     // 页面底部学校信息
     var mySchool=document.getElementById("mySchool")
     var myCollege=document.getElementById("myCollege")
-    mySchool.innerHTML="NanJing Normal University"
-    myCollege.innerHTML="School Of Geography Science"
+    mySchool.innerHTML="Northwest A&F University"
+    myCollege.innerHTML="College of Natural Resources and Environment"
 
     // 页面底部的联系方式
     var myEmail=document.getElementById("myEmail")    

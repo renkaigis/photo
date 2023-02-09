@@ -1,6 +1,6 @@
-# photo
+# Photo
 
-RenKai - 手机随手拍 - 照片集 & 摄影集
+Kai Ren - 手机随手拍 - 照片集 & 摄影集
 
 E-mail: renkaigis@gmail.com
 

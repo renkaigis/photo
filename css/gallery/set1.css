@@ -2,9 +2,9 @@
 
 	position: relative;
 
-	margin:0;
+	margin: 0;
 
-	padding:0;
+	padding: 0;
 
 	max-width: 100%;
 
@@ -12,7 +12,7 @@
 
 	text-align: center;
 
-	
+
 
 }
 
@@ -42,7 +42,7 @@
 
 	cursor: pointer;
 
-	
+
 
 }
 
@@ -60,8 +60,7 @@
 
 	opacity: 1;
 
-	background-color:#343434
-
+	background-color: #343434
 }
 
 
@@ -72,7 +71,8 @@
 
 	color: #fff;
 
-	text-transform: uppercase;
+	/* Kai 20230629 */
+	/* text-transform: uppercase; */
 
 	font-size: 1.25em;
 
@@ -96,7 +96,7 @@
 
 .grid figure figcaption,
 
-.grid figure figcaption > a {
+.grid figure figcaption>a {
 
 	position: absolute;
 
@@ -116,7 +116,7 @@
 
 /* For some effects it will show as a button */
 
-.grid figure figcaption > a {
+.grid figure figcaption>a {
 
 	z-index: 1000;
 
@@ -147,9 +147,9 @@
 
 .grid figure h2 span {
 	font-weight: 500;
-    font-size:60%;
-    color:lightgray;
-	font-family: Cursive , Monospace;
+	font-size: 60%;
+	color: lightgray;
+	font-family: Cursive, Monospace;
 }
 
 
@@ -173,13 +173,23 @@
 	/* font-size: 68.5%; */
 	font-size: 80%;
 
-	color: #fff; text-transform:capitalize
-
+	color: #fff;
+	text-transform: capitalize
 }
 
-.icon-pan{ color:#FFF; background-color:rgba(52,52,52,0.6); padding:2px 8px; border-radius:3px; margin:0 5px; text-align:center; font-weight:normal}
+.icon-pan {
+	color: #FFF;
+	background-color: rgba(52, 52, 52, 0.6);
+	padding: 2px 8px;
+	border-radius: 3px;
+	margin: 0 5px;
+	text-align: center;
+	font-weight: normal
+}
 
-.icon-pan i{ color:#FFF}
+.icon-pan i {
+	color: #FFF
+}
 
 /* Individual effects */
 
@@ -223,9 +233,9 @@ figure.effect-sarah img {
 
 	transition: opacity 0.35s, transform 0.35s;
 
-	-webkit-transform: translate3d(-10px,0,0);
+	-webkit-transform: translate3d(-10px, 0, 0);
 
-	transform: translate3d(-10px,0,0);
+	transform: translate3d(-10px, 0, 0);
 
 	-webkit-backface-visibility: hidden;
 
@@ -239,9 +249,9 @@ figure.effect-sarah:hover img {
 
 	opacity: 0.4;
 
-	-webkit-transform: translate3d(0,0,0);
+	-webkit-transform: translate3d(0, 0, 0);
 
-	transform: translate3d(0,0,0);
+	transform: translate3d(0, 0, 0);
 
 }
 
@@ -269,9 +279,9 @@ figure.effect-sarah h2 {
 
 	transition: opacity 0.35s, transform 0.35s;
 
-	-webkit-transform: translate3d(100%,0,0);
+	-webkit-transform: translate3d(100%, 0, 0);
 
-	transform: translate3d(100%,0,0);
+	transform: translate3d(100%, 0, 0);
 
 }
 
@@ -297,9 +307,9 @@ figure.effect-sarah h2::after {
 
 	transition: transform 0.35s;
 
-	-webkit-transform: translate3d(-100%,0,0);
+	-webkit-transform: translate3d(-100%, 0, 0);
 
-	transform: translate3d(-100%,0,0);
+	transform: translate3d(-100%, 0, 0);
 
 }
 
@@ -307,11 +317,11 @@ figure.effect-sarah h2::after {
 
 figure.effect-sarah:hover h2::after {
 
-	-webkit-transform: translate3d(0,0,0);
+	-webkit-transform: translate3d(0, 0, 0);
 
-	transform: translate3d(0,0,0);
+	transform: translate3d(0, 0, 0);
 
-	
+
 
 }
 
@@ -327,20 +337,21 @@ figure.effect-sarah p {
 
 	transition: opacity 0.35s, transform 0.35s;
 
-	-webkit-transform: translate3d(100%,0,0);
+	-webkit-transform: translate3d(100%, 0, 0);
 
-	transform: translate3d(100%,0,0);
+	transform: translate3d(100%, 0, 0);
 
 }
 
 
 
-figure.effect-sarah:hover p,figure.effect-sarah:hover h2 {
+figure.effect-sarah:hover p,
+figure.effect-sarah:hover h2 {
 
 	opacity: 1;
 
-	-webkit-transform: translate3d(0,0,0);
+	-webkit-transform: translate3d(0, 0, 0);
 
-	transform: translate3d(0,0,0);
+	transform: translate3d(0, 0, 0);
 
 }

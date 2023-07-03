@@ -53,7 +53,7 @@ document.writeln("                        <li><a href=\'https://twitter.com/renk
 document.writeln("                        <li><a href=\'mailto:renkaigis@gmail.com\'><i class=\'fa fa-envelope\'></i></a></li>");
 document.writeln("                    </ul>");
 document.writeln("                    <p class=\'made-by\'>Made with by <i class=\'fa fa-heart\' aria-hidden=\'true\'></i> <a");
-document.writeln("                            href=\'http://www.renkaigis.cn\' target=\'_blank\'>Kai Ren</a>");
+document.writeln("                            href=\'https://www.renkaigis.cn\' target=\'_blank\'>Kai Ren</a>");
 document.writeln("                        <p>");
 document.writeln("                </div>");
 document.writeln("                <!-- social -->");

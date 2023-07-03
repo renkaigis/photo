@@ -66,9 +66,9 @@
 
 
 .grid figure figcaption {
-
-	padding: 2em;
-
+	/* Kai 20230703 */
+	/* padding: 2em; */
+	padding: 1em 1.5em;
 	color: #fff;
 
 	/* Kai 20230629 */
@@ -135,7 +135,8 @@
 .grid figure h2 {
 
 	word-spacing: -0.15em;
-
+	/* Kai add 20230703 */
+	font-size: 25px;
 	font-weight: 900;
 
 	color: #fff;
@@ -147,7 +148,9 @@
 
 .grid figure h2 span {
 	font-weight: 500;
-	font-size: 60%;
+	/* Kai 20230703 */
+	/* font-size: 60%; */
+	font-size: 50%;
 	color: lightgray;
 	font-family: Cursive, Monospace;
 }
@@ -172,7 +175,8 @@
 
 	/* font-size: 68.5%; */
 	font-size: 80%;
-
+	/* Kai add 20230703 */
+	line-height: 24px;
 	color: #fff;
 	text-transform: capitalize
 }

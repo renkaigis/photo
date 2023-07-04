@@ -39,7 +39,7 @@ document.writeln("                <!-- email -->");
 document.writeln("                <div class=\'col-xs-12 col-sm-6 col-md-3 col-lg-3 padding-top\'>");
 document.writeln("                    <p></p>");
 document.writeln("                    <p id=\'myEmail\'></p>");
-document.writeln("                    <p id=\'myQQ\'></p>");
+document.writeln("                    <p id=\'myEmail2\'></p>");
 document.writeln("                </div>");
 document.writeln("                <!-- email -->");
 document.writeln("");

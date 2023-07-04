@@ -48,7 +48,7 @@ document.writeln("                <div class=\'col-xs-12 col-sm-6 col-md-3 col-l
 document.writeln("                    <p></p>");
 document.writeln("                    <ul class=\'social\'>");
 document.writeln("                        <li><a href=\'https://github.com/renkaigis\'><i class=\'fa fa-github\'></i></a></li>");
-document.writeln("                        <li><a href=\'https://weibo.com/renkai123\'><i class=\'fa fa-weibo\'></i></a></li>");
+document.writeln("                        <li><a href=\'https://www.linkedin.com/in/kai-ren-b9477111b/\'><i class=\'fa fa-linkedin\'></i></a></li>");
 document.writeln("                        <li><a href=\'https://twitter.com/renkaigis\'><i class=\'fa fa-twitter\'></i></a></li>");
 document.writeln("                        <li><a href=\'mailto:renkaigis@gmail.com\'><i class=\'fa fa-envelope\'></i></a></li>");
 document.writeln("                    </ul>");
